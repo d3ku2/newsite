@@ -203,3 +203,29 @@ h2{
     padding: 3px;
     margin-left: 5px;
 }
+table{
+    border: 5px solid #f60ad5;
+    border-collapse: collapse;
+    text-indent: initial;
+}
+
+td, th{
+    border: 2px solid white;
+}
+
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.price th:first-child{
+    width: 10%;
+}
+.price th:nth-child(2), .price th:last-child{
+    width: 25%;
+}
+caption{
+    text-align: left;
+    margin-bottom: 10px;
+}
